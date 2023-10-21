@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: valorant;
+}
+
+@font-face {
+    font-family: valorant;
+    src: url(Valorant_Font.ttf);
+}
+
+@font-face {
+    font-family: gameplay;
+    src: url(Gameplay.ttf);
+}
+
+body{
+    background-image: url(pictures/background.jpg);
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+.bg-pic{
+    position: relative;
+    background-image: url(pictures/home-pic.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 145vh;
+}
+
+
+.bg-pic3{
+    background-image: url(pictures/background2.jpg);
+}
+
+.navbar{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.20);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+    height: 70px;
+    z-index: 10;
+}
+
+.logo{
+    width: 221px; 
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    /* margin-bottom: max(1.5vw,20px); */
+    align-items: center;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: max(1vw,15px);
+    color: white;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+}
+
+.contact-pic img{
+    margin-top: 9px;
+    padding-left: 20px;
+}
+
+.line{
+    font-size:50px; 
+    color:white; 
+    margin-top: 13px;
+}
+
+.title{
+    font-size: max(3vw, 40px);
+    color: #8A8A8A;
+}
+
+.quotes{
+    font-size: max(1.5vw, 20px);
+    color: white;
+}
+
+.text-insctiption{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: max(1vw,15px);
+    color: #7E7E7E;
+    letter-spacing: 2px;
+}
+
+.email-jumb input{
+    width: 40vw;
+    height: 4vw;
+    border-radius: 10px;
+    border: 1px solid #D6C8C8;
+    background: rgba(217, 217, 217, 0.32);
+    margin-left: 4vw;
+}
+
+::placeholder{
+    padding-left: max(1.5vw, 20px);
+    color: #E7DBDB;
+    font-size: max(1vw,15px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.jumb-btn{
+    color: white;
+    width: max(10vw, 150px);
+    height: max(4vw,  40px);
+    border-radius: 10px;
+    background: rgba(99, 0, 178, 0.78);
+}
+
+.link1{
+    color: #a925ba !;
+    border-bottom: 5px solid #a925ba ;
+}
+
+/* @media (max-width:1150px) {
+    
+    .contact-pic img{
+        display: none;
+    }
+    /* .navbar ul{
+        display: none;
+    } 
+    .line{
+        display: none;
+    }
+ */
+
+.fisrt-news{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.big-pic pre{
+    color: #414141;
+    font-size: 25px;
+}
+
+.read-more{
+    color: white;
+}
+
+.read-more pre{
+
+    margin-left: 20px;
+}
+
+.line0{
+    border-bottom: 2px solid #7F6E6E;
+    margin:10px 60px 50px 60px;
+}
+
+.line1{
+    border-bottom: 2px solid #7F6E6E;
+    margin:140px 60px 50px 60px;
+}
+
+.small-pic{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.line2{
+    border-bottom: 2px solid #7F6E6E;
+    margin:50px 60px 50px 60px;
+}
+
+.line3{
+    border-bottom: 5px solid #7F6E6E;
+    margin:60px 0px 80px 0px;
+}
+
+.email-jumb1 input{
+    width: 284px;
+    height: 53px;
+    border-radius: 10px;
+    border: 1px solid #D6C8C8;
+    background: rgba(217, 217, 217, 0.32);
+}
+
+.subscribe-btn{
+    color: #E7DBDB;
+    width: 120px;
+    height: 53px;
+    border-radius: 10px;
+    background: rgba(99, 0, 178, 0.78);
+}
+
+::placeholder{
+    color: #E7DBDB;
+    font-family: valorant;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.adress{
+    color: white;
+    font-size: 12px;
+}
+
+.sitemap{
+    display: flex;
+    flex-direction: column;
+}
+
+.sitemap a{
+    margin-right: 130px;
+    margin-top: 18px;
+    color: white;
+    line-height: 3;
+}
+
+.contact-footer{
+    margin-top:10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.line4{
+    border-bottom: 1px solid #7F6E6E;
+    margin:60px 0px 20px 0px;
+}
+
+.privacy a{
+    padding-left: 20px;
+    color: white;
+}
+
+.privacy{
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.under-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+
+.big-video1 {
+    position: absolute;
+    background-image: url(pictures/spider-man.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 80%;
+    animation: slide1 20s linear infinite;
+}
+
+.big-video2 {
+    position: absolute;
+    background-image: url(pictures/resident-evil.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 80%;
+    animation: slide2 20s linear infinite;
+}
+
+.big-video3 {
+    position: absolute;
+    background-image: url(pictures/horizon.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 80%;
+    animation: slide3 20s linear infinite;
+}
+
+.big-video4 {
+    position: absolute;
+    background-image: url(pictures/valorant.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 80%;
+    animation: slide4 20s linear infinite;
+}
+
+.all-small-pic{
+    margin-top: 130vh;
+}
+
+@keyframes slide1 {
+
+    4.33%,8.33%,16.33%,24.66%{visibility: visible;}
+    33.32%,41.65%,49.98%{visibility: hidden;}
+    58.31%,66.64%,74.97%{visibility: hidden;}
+    83.3%,91.63%,99.96%{visibility: hidden;}
+    
+}
+
+@keyframes slide2 {
+
+    4%,8.33%,16.33%,24.66%{visibility: hidden;}
+    33.32%,41.65%,49.98%{visibility: visible;}
+    58.31%,66.64%,74.97%{visibility: hidden;}
+    83.3%,91.63%,99.96%{visibility: hidden;}
+        
+}
+
+@keyframes slide3 {
+
+    4%,8.33%,16.33%,24.66%{visibility: hidden;}
+    33.32%,41.65%,49.98%{visibility: hidden;}
+    58.31%,66.64%,74.97%{visibility: visible;}
+    83.3%,91.63%,99.96%{visibility: hidden;}
+        
+}
+
+@keyframes slide4 {
+
+    4%,8.33%,16.33%,24.66%{visibility: hidden;}
+    33.32%,41.65%,49.98%{visibility: hidden;}
+    58.31%,66.64%,74.97%{visibility: hidden;}
+    83.3%,91.63%,99.96%{visibility: visible;}
+        
+}
+
+
+
+.title-video{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px -4px 10px #000000,
+    -4px 4px 10px #000000,
+    4px -4px 10px #000000,
+    -4px 4px 10px #000000,
+    4px -4px 10px #000000,
+    -4px 4px 10px #000000,
+    4px -4px 10px #000000,
+    -4px 4px 10px #000000,
+    4px -4px 10px #000000,
+    -4px 4px 10px #000000,
+    4px -4px 10px #000000,
+    -4px 4px 10px #000000;
+}
+
+.little-title {
+    color: rgb(212, 200, 200);
+    text-shadow: 4px -4px 10px #000000,
+    -4px 4px 10px #000000,
+    4px -4px 10px #000000,
+    -4px 4px 10px #000000,
+    4px -4px 10px #000000,
+    -4px 4px 10px #000000,
+    4px -4px 10px #000000,
+    -4px 4px 10px #000000,
+    4px -4px 10px #000000,
+    -4px 4px 10px #000000,
+    4px -4px 10px #000000,
+    -4px 4px 10px #000000;
+    
+}
+
+
+.watch-btn{
+    margin-left: 7%;
+    width: 287px;
+    height: 74px;
+    border-radius: 30px;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.watch-now{
+    text-decoration: none;
+    background-color: black;
+    padding-right: 5%;
+    padding-left: 7%;
+    font-family: gameplay;
+    color: white;
+    font-size: 25px;  
+   
+}
+
