@@ -58,11 +58,42 @@ body{
 }
 
 .navbar ul li a {
+    position: relative;
     text-decoration: none;
     font-size: max(1vw,15px);
     color: white;
     padding-left: 2.5vw;
     padding-right: 2.5vw;
+}
+
+.navbar ul li .titles-btn:before{
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    height: 6px;
+    width: 0;
+    background: #ffffff;
+    border-radius: 50px;
+    transition: width 0.3s linear;
+}
+
+.navbar ul li .titles-btn:hover:before{
+    width: 45%;
+}
+
+.WWA:before{
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    height: 6px;
+    width: 0;
+    background: #ffffff;
+    border-radius: 50px;
+    transition: width 0.3s linear;
+}
+
+.WWA:hover:before{
+    width: 60%;
 }
 
 .contact-pic img{
@@ -120,7 +151,7 @@ body{
 }
 
 .link1{
-    color: #a925ba !;
+    color: #a925ba ;
     border-bottom: 5px solid #a925ba ;
 }
 
