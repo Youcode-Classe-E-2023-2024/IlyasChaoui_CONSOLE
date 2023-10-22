@@ -97,6 +97,7 @@ body{
 }
 
 .contact-pic img{
+    cursor: pointer;
     margin-top: 9px;
     padding-left: 20px;
 }
@@ -143,6 +144,7 @@ body{
 }
 
 .jumb-btn{
+    cursor: pointer;
     color: white;
     width: max(10vw, 150px);
     height: max(4vw,  40px);
@@ -150,23 +152,34 @@ body{
     background: rgba(99, 0, 178, 0.78);
 }
 
+.jumb-btn:hover{
+    outline: none;
+    animation: title-btn 1s linear infinite ;
+}
+
+@keyframes title-btn {
+    0%{
+        color: rgb(255, 255, 255);
+        text-shadow: none;
+    }
+    10%{
+        color: rgb(255, 255, 255);
+        text-shadow: 0 0 10px #ffffff,
+        0 0 10px #ffffff,
+        0 0 10px #ffff,
+        0 0 10px #ffff,
+        0 0 10px #ffff;
+    }
+}
+
 .link1{
     color: #a925ba ;
     border-bottom: 5px solid #a925ba ;
 }
 
-/* @media (max-width:1150px) {
-    
-    .contact-pic img{
-        display: none;
-    }
-    /* .navbar ul{
-        display: none;
-    } 
-    .line{
-        display: none;
-    }
- */
+.welcome-msg{
+    color:  white 
+}
 
 .fisrt-news{
     display: flex;
@@ -187,6 +200,11 @@ body{
 .read-more pre{
 
     margin-left: 20px;
+}
+
+.line01{
+    border-bottom: 2px solid #7F6E6E;
+    margin:10px 60px 40px 60px;
 }
 
 .line0{
@@ -226,11 +244,17 @@ body{
 }
 
 .subscribe-btn{
+    cursor: pointer;
     color: #E7DBDB;
     width: 120px;
     height: 53px;
     border-radius: 10px;
     background: rgba(99, 0, 178, 0.78);
+}
+
+.subscribe-btn:hover{
+    outline: none;
+    animation: title-btn 1s linear infinite ;
 }
 
 ::placeholder{
@@ -260,6 +284,7 @@ body{
 }
 
 .contact-footer{
+    cursor: pointer;
     margin-top:10px;
     display: flex;
     flex-direction: row;
@@ -509,5 +534,29 @@ body{
     color: white;
     font-size: 25px;  
    
+}
+
+.avatar-name{
+    color: white;
+    font-size: 1vw;
+}
+
+.avatar{
+    display: flex;
+    margin-left: 6%;
+}
+
+.text-posted{
+    color: white;
+    font-size: 1vw;
+}
+
+.react{
+    margin-left: 7%;
+}
+
+.posted-pic{
+    width: 85%;
+    margin: 1% 6% ;
 }
 
