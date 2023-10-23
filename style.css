@@ -41,26 +41,32 @@ body{
     justify-content: space-around;
     align-content: center;
     width: 100%;
-    height: 70px;
+    height: 10%;
     z-index: 10;
 }
 
 .logo{
-    width: 221px; 
+    width: 14%; 
+}
+
+.sidebar {
+    width: 6vw;
+    height: 5.3vw;
+    margin-top: 1.5vw;
+    display: none;
 }
 
 .navbar ul{
     list-style: none;
     display: flex;
     flex-direction: row;
-    /* margin-bottom: max(1.5vw,20px); */
     align-items: center;
 }
 
 .navbar ul li a {
     position: relative;
     text-decoration: none;
-    font-size: max(1vw,15px);
+    font-size: 1vw;
     color: white;
     padding-left: 2.5vw;
     padding-right: 2.5vw;
@@ -98,34 +104,36 @@ body{
 
 .contact-pic img{
     cursor: pointer;
-    margin-top: 9px;
-    padding-left: 20px;
+    margin-top: 5%;
+    padding-left: 1vw;
+    width: 3vw;
+    height: 3vw;
 }
 
 .line{
-    font-size:50px; 
-    color:white; 
-    margin-top: 13px;
+    font-size: 4vw; 
+    color:rgb(255, 255, 255); 
+    margin-top: 0.7vw;
 }
 
 .title{
-    font-size: max(3vw, 40px);
+    font-size: 3vw;
     color: #8A8A8A;
 }
 
 .quotes{
-    font-size: max(1.5vw, 20px);
+    font-size: 1.5vw;
     color: white;
 }
 
 .text-insctiption{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: max(1vw,15px);
+    font-size: 1vw;
     color: #7E7E7E;
     letter-spacing: 2px;
 }
 
-.email-jumb input{
+.email-jump input{
     width: 40vw;
     height: 4vw;
     border-radius: 10px;
@@ -137,22 +145,23 @@ body{
 ::placeholder{
     padding-left: max(1.5vw, 20px);
     color: #E7DBDB;
-    font-size: max(1vw,15px);
+    font-size: 1vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-.jumb-btn{
+.jump-btn{
+    font-size: 1vw;
     cursor: pointer;
     color: white;
-    width: max(10vw, 150px);
-    height: max(4vw,  40px);
+    width: 10vw;
+    height: 4vw;
     border-radius: 10px;
     background: rgba(99, 0, 178, 0.78);
 }
 
-.jumb-btn:hover{
+.jump-btn:hover{
     outline: none;
     animation: title-btn 1s linear infinite ;
 }
@@ -185,12 +194,12 @@ body{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 4vw;
 }
 
 .big-pic pre{
     color: #414141;
-    font-size: 25px;
+    font-size: 2vw;
 }
 
 .read-more{
@@ -199,45 +208,45 @@ body{
 
 .read-more pre{
 
-    margin-left: 20px;
+    margin-left: 2vw;
 }
 
 .line01{
     border-bottom: 2px solid #7F6E6E;
-    margin:10px 60px 40px 60px;
+    margin:1vw 6vw 4vw 6vw;
 }
 
 .line0{
     border-bottom: 2px solid #7F6E6E;
-    margin:10px 60px 50px 60px;
+    margin:1vw 6vw 4vw 6vw;
 }
 
 .line1{
     border-bottom: 2px solid #7F6E6E;
-    margin:140px 60px 50px 60px;
+    margin:1vw 6vw 4vw 6vw;
 }
 
 .small-pic{
     display: flex;
     flex-direction: row;
-    margin-left: 100px;
+    margin-left: 7%;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
 .line2{
     border-bottom: 2px solid #7F6E6E;
-    margin:50px 60px 50px 60px;
+    margin:5vw 6vw 5vw 6vw;
 }
 
 .line3{
     border-bottom: 5px solid #7F6E6E;
-    margin:60px 0px 80px 0px;
+    margin:6vw 0px 8vw 0px;
 }
 
-.email-jumb1 input{
-    width: 284px;
-    height: 53px;
+.email-jump1 input{
+    width: 20vw;
+    height: 3.5vw;
     border-radius: 10px;
     border: 1px solid #D6C8C8;
     background: rgba(217, 217, 217, 0.32);
@@ -246,8 +255,8 @@ body{
 .subscribe-btn{
     cursor: pointer;
     color: #E7DBDB;
-    width: 120px;
-    height: 53px;
+    width: 10vw;
+    height: 3.5vw;
     border-radius: 10px;
     background: rgba(99, 0, 178, 0.78);
 }
@@ -260,7 +269,7 @@ body{
 ::placeholder{
     color: #E7DBDB;
     font-family: valorant;
-    font-size: 10px;
+    font-size: 0.7vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -277,15 +286,15 @@ body{
 }
 
 .sitemap a{
-    margin-right: 130px;
-    margin-top: 18px;
+    margin-right: 15vw;
+    margin-top: 1vw;
     color: white;
     line-height: 3;
 }
 
 .contact-footer{
     cursor: pointer;
-    margin-top:10px;
+    margin-top:0.6vw;
     display: flex;
     flex-direction: row;
 }
@@ -297,16 +306,16 @@ body{
 
 .line4{
     border-bottom: 1px solid #7F6E6E;
-    margin:60px 0px 20px 0px;
+    margin:6vw 0px 1vw 0px;
 }
 
 .privacy a{
-    padding-left: 20px;
+    padding-left: 2vw;
     color: white;
 }
 
 .privacy{
-    margin-right: 50px;
+    margin-right: 2vw;
     display: flex;
     flex-direction: row;
 }
@@ -385,97 +394,6 @@ body{
     }
 }
 
-@keyframes slide1 {
-
-    4.33% {
-        visibility: visible;
-        transform: scale(0.4);
-    }
-    6% {
-        transform: scale(1);
-    }
-    22% {
-        transform: scale(1);
-    }
-    24.66%{
-        visibility: visible;
-        transform: scale(0.4);
-    }
-    33.32%,49.98%{visibility: hidden;}
-    58.31%,74.97%{visibility: hidden;}
-    83.3%,99.96%{visibility: hidden;}
-    
-}
-
-@keyframes slide2 {
-
-    4%,24.66%{visibility: hidden;}
-
-    33.33% {
-        visibility: visible;
-        transform: scale(0.4);
-    }
-    36% {
-        transform: scale(1);
-    }
-    43% {
-        transform: scale(1);
-    }
-    49.98%{
-        visibility: visible;
-        transform: scale(0.4);
-    }
-
-    58.31%,74.97%{visibility: hidden;}
-    83.3%,99.96%{visibility: hidden;}
-        
-}
-
-@keyframes slide3 {
-
-    4%,24.66%{visibility: hidden;}
-    33.32%,49.98%{visibility: hidden;}
-
-    58.31% {
-        visibility: visible;
-        transform: scale(0.4);
-    }
-    62% {
-        transform: scale(1);
-    }
-    69% {
-        transform: scale(1);
-    }
-    74.97%{
-        visibility: visible;
-        transform: scale(0.4);
-    }
-
-    83.3%,99.96%{visibility: hidden;}
-        
-}
-
-@keyframes slide4 {
-
-    4%,24.66%{visibility: hidden;}
-    33.32%,49.98%{visibility: hidden;}
-    58.31%,74.97%{visibility: hidden;}
-
-    83.3% {
-        visibility: visible;
-        transform: scale(0.4);
-    }
-    89% {
-        transform: scale(1);
-    }
-    93% {
-        transform: scale(1);
-    }
-    99.96%{
-        visibility: visible;
-        transform: scale(0.4);
-    }        
-}
 
 
 
@@ -516,9 +434,9 @@ body{
 
 .watch-btn{
     margin-left: 7%;
-    width: 287px;
-    height: 74px;
-    border-radius: 30px;
+    width: 23%;
+    height: 10%;
+    border-radius: 3.5vw;
     background: #000;
     display: flex;
     align-items: center;
@@ -532,7 +450,7 @@ body{
     padding-left: 7%;
     font-family: gameplay;
     color: white;
-    font-size: 25px;  
+    font-size: 1.7vw;  
    
 }
 
@@ -560,3 +478,161 @@ body{
     margin: 1% 6% ;
 }
 
+@media (max-width:1024px) {
+    .contact-pic img{
+        width: 35px;
+        height: 35px;
+        margin-top: 9%;
+    }
+
+    .line{
+        margin-top: 1.5vw;
+    }
+    .quotes{
+        margin-bottom: 10%;
+    }
+
+    .email-jump input{
+        width: 40vw;
+        height: 5vw;
+ 
+    }
+    ::placeholder{
+        font-size: 1vw;
+    }
+    .jump-btn{
+        font-size: 1.5vw;
+        width: 16vw;
+        height: 5vw;
+    }
+
+    .logo{
+        width: 17%; 
+    }
+
+    .bg-pic{
+        height: 110vh;
+    }
+}
+
+@media (max-width:768px) {
+
+    .navbar ul li a{
+        display: none;
+    }
+
+    .line{
+        display: none;
+    }
+
+    .contact-pic{
+        display: none;
+    }
+
+    .logo{
+        width: 25%; 
+        margin-right: 63%;
+    }
+    .sidebar{
+        display: block;
+    }
+    .bg-pic{
+        background-image: url(pictures/tablet-home-bg.png);
+        /* position: relative; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 145vh;
+    }
+    .title{
+        font-size: 4vw;
+    }
+    .quotes{
+        font-size: 2vw;
+    }
+    .text-insctiption{
+        font-size: 1.5vw;
+    }
+    .email-jump input{
+        width: 50vw;
+        height: 7vw;
+ 
+    }
+    ::placeholder{
+        font-size: 1.5vw;
+    }
+    .jump-btn{
+        font-size: 1.5vw;
+        width: 15vw;
+        height: 7vw;
+    }
+}
+
+@media (max-width:426px) {
+    .big-pic{
+        background-image: url(pictures/phone-home-bg.png);
+    }
+
+    .logo{
+        position: absolute;
+        width: 48vw;
+        margin-left: 10%;
+    }
+
+    .sidebar {
+        width: 12vw;
+        height: 10vw;
+        margin-top: 2vw;
+        margin-left: 80vw;        
+    }
+
+    .bg-pic{
+        padding-top: 100px;
+    }
+    .navbar{
+        top: 0;
+    }
+    .title{
+        font-size: 6vw;
+        margin-top: -29%;
+    }
+    .quotes{
+        font-size: 3vw;
+        margin-bottom: 50%;
+    }
+    .text-insctiption{
+        font-size: 2vw;
+
+    }
+    .email-jump input{
+        width: 60vw;
+        height: 9vw;
+        margin-left: 9vw;
+ 
+    }
+    ::placeholder{
+        font-size: 2vw;
+    }
+    .jump-btn{
+        font-size: 3vw;
+        width: 18vw;
+        height: 10vw;
+    }
+}
+
+@media (max-width:426px) {
+    
+    body{
+        background-image: url(pictures/phone-news-bg.png);
+        background-size: 250%;
+    }
+    .navbar{
+        height: 7%;
+    }
+    .logo{
+        width: 35%;
+    }
+    .sidebar{
+        display: block;
+    }
+    
+}
