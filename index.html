@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/25ff1b0eed.js" crossorigin="anonymous"></script>
+    <title>HOME PAGE</title>
 </head>
+
 <body>
     <section class="bg-pic">
-   
-        <div class="navbar">
+
+        <div class="navbar-home">
             <img class="logo" src="pictures/logo.png" alt="11111">
             <ul>
                 <li><a href="index.html"><span class="link1">HOME</span></a></li>
@@ -20,51 +23,59 @@
             </ul>
             <pre class="line">I</pre>
             <div class="contact-pic">
-                <img src="pictures/facebook.png" alt="" >
-                <img src="pictures/instagram.png" alt="" >
-                <img src="pictures/telegram.png" alt="" >
-                <img src="pictures/discord.png" alt="" >
+                <img src="pictures/facebook.png" alt="">
+                <img src="pictures/instagram.png" alt="">
+                <img src="pictures/telegram.png" alt="">
+                <img src="pictures/discord.png" alt="">
             </div>
-            <img class="sidebar" src="pictures/sidebar.png" alt="">
+            <button id="star" class="burger-bar" href=""><img src="pictures/burger-bar.png" alt="" width="40"></button>
+        </div>
+        <div class="container0">
+            <div class="menu-items">
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-house" style="color: white;"></i>HOME</a></li>
+                    <li><a href="news.html"><i class="fa-solid fa-newspaper" style="color: white;"></i>NEWS</a></li>
+                    <li><a href="videos.html"><i class="fa-solid fa-video" style="color: white;"></i>VIDEOS</a></li>
+                    <li><a href="forum.html"><i class="fa-brands fa-rocketchat" style="color: white;"></i>FORUM</a></li>
+                    <li><a href="who-we-are.html"><i class="fa-solid fa-people-group" style="color: white;"></i>WHO WE
+                            ARE</a></li>
+                </ul>
+            </div>
         </div>
 
         <div class="container">
             <div>
 
                 <pre class="title">
-                    
-                    
-                    
-                    
-                    
+
+
+
+
+
     LE MONDE DES MANETTES
                 </pre>
                 <pre class="quotes">
-    
+
             Ouvrez la Porte sur un Monde de Jeux
     
             Votre Destination Ultime pour Toutes les 
             Actualités, Critiques et Astuces
                 </pre>
                 <pre class="text-insctiption">
-    
-    
-    
+
+
+
             Découvrez l'extraordinaire ! Inscrivez votre e-mail et 
             ouvrez la porte vers un monde de surprises exclusives."
                 </pre>
             </div>
             <div class="email-jump">
                 <input type="email" name="email" placeholder="Enter your email" required>
-                <button class="jump-btn">jump-in ></button>
+                <button class="jump-btn"><a href="news.html">jump-in ></a></button>
             </div>
         </div>
     </section>
-    <script>
-        var burger = document.getElementById('burger');
-        burger.addEventListener('click',function(){
-            document.querySelector("body").classList.toggle("active");
-        })
-    </script>
+    <script src="burger.js"></script>
 </body>
+
 </html>
